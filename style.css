@@ -12,4 +12,41 @@ h1 {
     border-width: 2px;
     background-color: aqua;
     text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
 }
+.link{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 20px;
+}
+.box {
+    border-style: solid;
+    border-color: orange;
+    border-width: 2px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.sides{
+    min-width: 49%;
+    
+}
+.left{
+    background-color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.right{
+    background-color: pink;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text{
+    border-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+}
+    
